@@ -10,5 +10,6 @@
 ## Usage
 
 ```console
+docker run --rm -v $(pwd):/doc pottava/review:3.1 review init mybook
 docker run --rm -v $(pwd)/mybook:/doc pottava/review:3.1 rake pdf
 ```
